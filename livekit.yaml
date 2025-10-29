@@ -1,4 +1,4 @@
-port: 7880
+port: 80
 rtc:
     udp_port: 7882
     tcp_port: 7881
