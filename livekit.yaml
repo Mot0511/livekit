@@ -1,8 +1,7 @@
 port: 80
 rtc:
     stun_servers:
-        - host: stun.relay.metered.ca
-          port: 80
+        - stun:stun.relay.metered.ca:80
     turn_servers:
         - host: global.relay.metered.ca
           port: 80
