@@ -6,19 +6,19 @@ rtc:
     turn_servers:
         - host: global.relay.metered.ca
           port: 80
-          usrename: 75fcddce3f5460c20d0210cf
+          username: 75fcddce3f5460c20d0210cf
           credential: Wqny2U1zlKWD/4Bz
         - host: global.relay.metered.ca?transport=tcp
           port: 80
-          usrename: 75fcddce3f5460c20d0210cf
+          username: 75fcddce3f5460c20d0210cf
           credential: Wqny2U1zlKWD/4Bz
         - host: global.relay.metered.ca
           port: 443
-          usrename: 75fcddce3f5460c20d0210cf
+          username: 75fcddce3f5460c20d0210cf
           credential: Wqny2U1zlKWD/4Bz
         - host: global.relay.metered.ca?transport
           port: 443
-          usrename: 75fcddce3f5460c20d0210cf
+          username: 75fcddce3f5460c20d0210cf
           credential: Wqny2U1zlKWD/4Bz
     udp_port: 7882
     tcp_port: 7881
