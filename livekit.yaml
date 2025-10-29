@@ -1,8 +1,8 @@
 port: 80
 rtc:
     stun_servers:
-        - host: stun:stun.l.google.com
-          port: 19302
+        - host: stun.relay.metered.ca
+          port: 80
     turn_servers:
         - host: global.relay.metered.ca
           port: 80
