@@ -1,15 +1,25 @@
 port: 80
 rtc:
-    ice_servers:
-        - urls:
-            - "stun:stun.l.google.com:19302"
-        - urls:
-            - "turn:global.relay.metered.ca:80"
-            - "turn:global.relay.metered.ca:80?transport=tcp"
-            - "turn:global.relay.metered.ca:443"
-            - "turns:global.relay.metered.ca:443?transport=tcp"
-          username: "75fcddce3f5460c20d0210cf"
-          credential: "Wqny2U1zlKWD/4Bz"
+    stun_servers:
+        - host: stun:stun.l.google.com
+          port: 19302
+    turn_servers:
+        - host: global.relay.metered.ca
+          port: 80
+          usrename: 75fcddce3f5460c20d0210cf
+          credential: Wqny2U1zlKWD/4Bz
+        - host: global.relay.metered.ca?transport=tcp
+          port: 80
+          usrename: 75fcddce3f5460c20d0210cf
+          credential: Wqny2U1zlKWD/4Bz
+        - host: global.relay.metered.ca
+          port: 443
+          usrename: 75fcddce3f5460c20d0210cf
+          credential: Wqny2U1zlKWD/4Bz
+        - host: global.relay.metered.ca?transport
+          port: 443
+          usrename: 75fcddce3f5460c20d0210cf
+          credential: Wqny2U1zlKWD/4Bz
     udp_port: 7882
     tcp_port: 7881
     use_external_ip: false
